@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="flickity.css">
+<style>
+	
+	 .gallery-cell>img{
+          width: 1000px;
+          height:400px;
+        }
+        .gallery
+        {
+            margin-top: 5%;
+        }
+</style>
+<head>
+	<title>-Pragnya'15-</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="flickity.css">
+</head>
+<body>
+	<div id="main_div">
+		<section id="main_head">
+			<a href="index.html" style="text-decoration:none;color:white;"><img src="images/pragnya.png" style="width:180px;height60px;position:absolute;left:1%;"></a>
+			<p style="position:absolute;left:42%;padding:15px;font-size:22px;font-family:BatmanForeverAlternate">Home</p>
+			<img src="images\wifi_net.png" width="54" height="28" style="position:absolute;right:1%;padding:10px;">
+		</section>
+		<section>
+
+<div class="gallery">
+
+      
+       <div class="gallery-cell">  
+          <img src="acc.jpg" alt="">
+       </div>
+       
+        <div class="gallery-cell">
+            <img src="game.jpg" alt="">
+        </div>  
+        
+   </div>
+		</section>
+		<footer id="main_footer">
+			<a href="index.html"><img src="images\back.png" id="back_icon"></a>
+			<a href="home.html"><img src="images\hom.png" id="home_icon"></a>
+			<p id="copyrights">&copy; <span id="headings">PRAGNYA-GRIET</span></p>
+		</footer>
+	</div>
+
+	
+
+</body>
+<script src="flickity.js"></script>
+
+<script src="jquery.js"></script>
+  <script>
+      
+       
+       
+       $(".gallery").flickity({
+        
+           autoPlay:true,
+           freeScroll:true
+       
+       });
+       
+      
+       
+       
+    </script>
+
+</html>

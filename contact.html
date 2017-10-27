@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>-Pragnya'15-</title>
+	<link rel="shortcut icon" href="images\p.png">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+		$(".loader").fadeOut("slow");
+	})
+	</script>
+</head>
+<body>
+	<div class="loader" align="center">
+		<video width="100%" height="700" autoplay loop muted>
+    		<source src="pragnya.mp4" type="video/mp4">
+    		Annual technical symposium of Gokaraju Rangaraju Institute of Engineering and Technology.
+    	</video>
+    </div>
+	<div id="main_div">
+		<section id="main_head">
+			<a href="menu.html" style="text-decoration:none;color:white;"><img src="images/pragnya.png" style="width:180px;height60px;position:absolute;left:1%;"></a>
+			<p style="position:absolute;left:42%;padding:15px;font-size:22px;font-family:BatmanForeverAlternate">Contact us</p>
+			<img src="images\wifi_net.png" width="54" height="28" style="position:absolute;right:1%;padding:10px;">
+		</section>
+		<section id="main_section">
+		<div style="padding:4% 5%">
+				<div id="bak" style="height:120%;"></div>
+				<div style="padding:8%;">
+					<p>For further queries, feel free to contact the pragnya team!</p><br>
+					<form method="POST" action="sendmail.php">
+						<input type="text" placeholder="Enter your name" name="user_name" id="text"><br><br>
+						<input type="text" placeholder="Email Address" name="user_email" id="text"><br><br>
+						<textarea placeholder="Comments" name="user_data" cols="100" rows="15" id="textbox"></textarea><br><br>
+						<input type="submit" value="Submit" id="submit" name="send_data"><br><br>
+					</form>
+					<p>Contact:<br>
+						Chaithanya : 9676287800<br>
+						Aditya&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 9666180354<br>
+					</p>
+				</div>
+		</div>
+		</section>
+		<footer id="main_footer">
+			<a href="menu.php"><img src="images\back.png" id="back_icon"></a>
+			<a href="index.html"><img src="images\hom.png" id="home_icon"></a>
+			<p id="copyrights">&copy; <span id="headings">PRAGNYA-GRIET</span></p>
+		</footer>
+	</div>
+</body>
+</html>
